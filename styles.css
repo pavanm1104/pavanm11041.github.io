@@ -1,0 +1,146 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a box-sizing border-box model to all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    position: relative;
+    overflow: hidden;
+    background-image: url('images/header-background.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 80px 0;
+}
+
+/* Title and subtitle styles */
+.title {
+    font-family: 'Arial', sans-serif;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-family: 'Georgia', serif;
+    font-size: 1.5em;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+}
+
+.catalog-container a {
+    display: inline-block;
+    padding: 15px 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+.catalog-container a:hover {
+    background-color: #555;
+}
+
+/* Recipe Catalog styles */
+#recipe-catalog {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; 
+}
+
+.recipe-item-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.recipe-item-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-item-box h3 {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.recipe-description {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
+
+#recipe-page footer {
+    display: none;
+}
+
+/* Background colors for different pages */
+#recipe-catalog {
+    background-color: #f9f9f9;
+}
+
+#spaghetti, #lasagna, #tiramisu, #risotto, #contact-us {
+    background-color: #ececec;
+}
+/* Recipe Page styles */
+.recipe-section {
+    max-width: 800px; /* Set a maximum width for the recipe content */
+    margin: 0 auto; /* Center the recipe content horizontally */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.recipe-item-box {
+    max-width: 800px; /* Set a maximum width for the recipe item boxes */
+    margin: 0 auto; /* Center the recipe item boxes horizontally */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+/* Other styles remain unchanged */
+/* Recipe Page styles */
+.recipe-section {
+    max-width: 800px; /* Set a maximum width for the recipe content */
+    margin: 0 auto; /* Center the recipe content horizontally */
+    padding: 20px; /* Add padding for better spacing */
+    text-align: center; /* Center the text inside the recipe section */
+}
+
+.recipe-item-box {
+    max-width: 800px; /* Set a maximum width for the recipe item boxes */
+    margin: 0 auto; /* Center the recipe item boxes horizontally */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.recipe-item-box h3 {
+    text-align: center; /* Center the recipe item headings */
+}
+
+/* Other styles remain unchanged */
